@@ -1,17 +1,19 @@
 package helper
 
+import (
+	"errors"
+	"math/rand"
+	"time"
+
+	"github.com/lampnick/AES-DES-Encrypt-Decrypt/encrypt/aes"
+	"github.com/lampnick/AES-DES-Encrypt-Decrypt/encrypt/rsa"
+)
+
 /**
  * @Author nick
  * @Blog http://www.lampnick.com
  * @Email nick@lampnick.com
  */
-import (
-	"AES-DES-Encrypt-Decrypt/encrypt/aes"
-	"AES-DES-Encrypt-Decrypt/encrypt/rsa"
-	"errors"
-	"math/rand"
-	"time"
-)
 
 type EncryptInfo struct {
 	EncryptData string

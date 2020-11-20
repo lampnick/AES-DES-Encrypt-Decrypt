@@ -1,15 +1,17 @@
 package main
 
+import (
+	"encoding/json"
+	"fmt"
+
+	"github.com/lampnick/AES-DES-Encrypt-Decrypt/encrypt/helper"
+)
+
 /**
  * @Author nick
  * @Blog http://www.lampnick.com
  * @Email nick@lampnick.com
  */
-import (
-	"AES-DES-Encrypt-Decrypt/encrypt/helper"
-	"encoding/json"
-	"fmt"
-)
 
 var privateKey = []byte(`  
 -----BEGIN RSA PRIVATE KEY-----
